@@ -19,6 +19,6 @@ public class SoapCountryController {
     @ResponseBody
     public String getCardType(@PathVariable String isoCode) {
         CountryFlagResponse response = countryClient.getCardType(isoCode);
-        return response.getCountryFlagResult():
+        return response.getCountryFlagResult();
     }
 }
